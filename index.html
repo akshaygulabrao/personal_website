@@ -34,6 +34,13 @@
   </nav>
   <main>
     Continued February 5th, 2022
+    <script>
+      //https://chain.api.btc.com/v3/block/latest
+      fetch('https://chain.api.btc.com/v3/block/latest')
+        .then(response => response.json())
+        .then(data => console.log(data));
+      
+    </script>
   </main>
   </section>
 
